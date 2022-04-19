@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musterije u restoranu</title>
+    <script src="musterije.js" defer></script>
+    <style>
+        #inputi {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            row-gap: 1rem;
+            width: 90%;
+            margin: 3% auto;
+        }
+
+        label {
+            display: block;
+            text-align: center;
+        }
+
+        #ispisMusterija {
+            height: 70vh;
+            width: 80%;
+            margin: 5% auto;
+            border: 2px solid black;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            row-gap: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="inputi">
+        <div>
+            <label for="ime">Ime musterije:</label> <br>
+            <input type="text" name="ime-musterije" id="ime">
+        </div>
+        <div>
+            <label for="brojStola">Sto:</label> <br>
+            <input type="text" name="broj-stola" id="brojStola">
+        </div>
+        <div>
+            <label for="racun">Racun:</label> <br>
+            <input type="text" name="racun" id="racun">
+        </div>
+        <div>
+            <button id="unos">UNESI</button> 
+            <button id="ispis">Ispis musterija</button>
+        </div>
+    </div>
+
+    <div id="ispisMusterija">
+        <!-- <div>
+            <p>Ime musterije: Ime</p>
+            <p>Broj stola: broj</p>
+            <p>Racun: cena</p>
+        </div>
+        <div>
+            <p>Ime musterije: Ime</p>
+            <p>Broj stola: broj</p>
+            <p>Racun: cena</p>
+        </div> -->
+    </div>
+</body>
+
+</html>
