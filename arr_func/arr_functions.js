@@ -6,6 +6,7 @@
 
 // console.log(poslednji)
 // console.log(niz)
+// console.log(niz)
 
 //PUSH - ubacuje element na kraj niza i vraca length niza
 
